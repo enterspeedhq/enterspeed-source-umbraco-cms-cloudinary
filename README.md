@@ -33,4 +33,4 @@ Otherwise you are welcome to open an Issue in our [issue tracker](https://github
 
 ## License
 
-Enterspeed Umbraco Source is [MIT licensed](./LICENSE)
+The Cloudinary add-on for Enterspeed Umbraco integration is [MIT licensed](./LICENSE)
