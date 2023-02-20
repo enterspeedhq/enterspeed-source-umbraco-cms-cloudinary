@@ -1,4 +1,4 @@
-# [Enterspeed Umbraco Source Cloudinary](https://www.enterspeed.com/) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) [![NuGet version](https://img.shields.io/nuget/v/Enterspeed.Source.UmbracoCms)](https://www.nuget.org/packages/Enterspeed.Source.UmbracoCms/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/enterspeedhq/enterspeed-source-umbraco-cms/pulls)
+# [Enterspeed Umbraco Source Cloudinary](https://www.enterspeed.com/) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) [![NuGet version](https://img.shields.io/nuget/v/Enterspeed.Source.UmbracoCms.Cloudinary)](https://www.nuget.org/packages/Enterspeed.Source.UmbracoCms.Cloudinary/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/enterspeedhq/enterspeed-source-umbraco-cms-cloudinary/pulls)
 
 ## Documentation
 
