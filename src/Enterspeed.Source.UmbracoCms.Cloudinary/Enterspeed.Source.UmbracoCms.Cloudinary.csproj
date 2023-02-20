@@ -11,6 +11,7 @@
     <PackageTags>Enterspeed, Umbraco, Cloudinary, umbraco-marketplace</PackageTags>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageIcon>icon.png</PackageIcon>
+    <PackageProjectUrl>https://github.com/enterspeedhq/enterspeed-source-umbraco-cms-cloudinary</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
