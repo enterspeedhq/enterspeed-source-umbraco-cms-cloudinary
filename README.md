@@ -10,6 +10,7 @@ The only configuration specific to this add-on is the Cloudinary environment cre
 
 ``` json
 "Enterspeed": {
+    ...
     "Cloudinary": {
       "CloudName": "", // Required
       "ApiKey": "", // Required
