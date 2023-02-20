@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enterspeed.Source.UmbracoCms.Cloudinary", "src\Enterspeed.Source.UmbracoCms.Cloudinary\Enterspeed.Source.UmbracoCms.Cloudinary.csproj", "{E3126863-8B94-42DE-932F-C961A44D0471}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{2955AEF5-4EE0-4BFF-B849-2483B083E602}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		azure-pipelines.yml = azure-pipelines.yml
+		CHANGELOG.md = CHANGELOG.md
+		NuGet.Config = NuGet.Config
+		README.md = README.md
+		umbraco-marketplace.json = umbraco-marketplace.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3126863-8B94-42DE-932F-C961A44D0471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3126863-8B94-42DE-932F-C961A44D0471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3126863-8B94-42DE-932F-C961A44D0471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3126863-8B94-42DE-932F-C961A44D0471}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {630B94A1-95CD-4C38-8118-9E0621FA125C}
+	EndGlobalSection
+EndGlobal
