@@ -5,13 +5,20 @@
     <Nullable>disable</Nullable>
     <PackageId>Enterspeed.Source.UmbracoCms.Cloudinary</PackageId>
     <Authors>Enterspeed</Authors>
-    <Description>Enterspeed integration for Umbraco</Description>
+    <Description>Enterspeed Cloudinary integration for Umbraco</Description>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/enterspeedhq/enterspeed-source-umbraco-cms-cloudinary</RepositoryUrl>
-    <PackageTags>Enterspeed, Umbraco, Cloudinary umbraco-marketplace</PackageTags>
+    <PackageTags>Enterspeed, Umbraco, Cloudinary, umbraco-marketplace</PackageTags>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageIcon>icon.png</PackageIcon>
+    <PackageProjectUrl>https://github.com/enterspeedhq/enterspeed-source-umbraco-cms-cloudinary</PackageProjectUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="App_Plugins\**" />
+    <EmbeddedResource Remove="App_Plugins\**" />
+    <None Remove="App_Plugins\**" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="CloudinaryDotNet" Version="1.20.0" />

@@ -2,8 +2,23 @@
 
 ## Documentation
 
-To get started with Enterspeed for Umbraco, please see:  
-[Umbraco documentation - Getting started](https://docs.enterspeed.com/integrations/umbraco/getting-started/)
+This package will automatically upload the Umbraco media to Cloudinary and ingest the Cloudinary url to Enterspeed instead of the Umbraco url.
+
+The package is a add-on to [Enterspeed.Source.UmbracoCms](https://www.nuget.org/packages/Enterspeed.Source.UmbracoCms).
+
+The only configuration specific to this add-on is the Cloudinary environment credentials. These can be configured in the `appsettings.json` file.
+
+``` json
+"Enterspeed": {
+    ...
+    "Cloudinary": {
+      "CloudName": "", // Required
+      "ApiKey": "", // Required
+      "ApiSecret": "", // Required
+      "AssetFolder": "" // Optional
+    }
+  }
+```
 
 ## Changelog
 
@@ -18,4 +33,4 @@ Otherwise you are welcome to open an Issue in our [issue tracker](https://github
 
 ## License
 
-Enterspeed Umbraco Source is [MIT licensed](./LICENSE)
+The Cloudinary add-on for Enterspeed Umbraco integration is [MIT licensed](./LICENSE)
