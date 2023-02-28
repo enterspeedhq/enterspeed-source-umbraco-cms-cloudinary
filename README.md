@@ -22,7 +22,7 @@ The only configuration specific to this add-on is the Cloudinary environment cre
 
 ## Changelog
 
-See new features, fixes and breaking changes in the changelog. [Changelog](./CHANGELOG.md)
+See new features, fixes and breaking changes in the changelog. [Changelog](https://github.com/enterspeedhq/enterspeed-source-umbraco-cms-cloudinary/blob/develop/CHANGELOG.md)
 
 ## Contributing
 
@@ -33,4 +33,4 @@ Otherwise you are welcome to open an Issue in our [issue tracker](https://github
 
 ## License
 
-The Cloudinary add-on for Enterspeed Umbraco integration is [MIT licensed](./LICENSE)
+The Cloudinary add-on for Enterspeed Umbraco integration is [MIT licensed](https://github.com/enterspeedhq/enterspeed-source-umbraco-cms-cloudinary/blob/develop/LICENSE)
