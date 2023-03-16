@@ -9,6 +9,7 @@
     "Url": "https://www.enterspeed.com/",
     "ImageUrl": "https://raw.githubusercontent.com/enterspeedhq/enterspeed-source-umbraco-cms/develop/umbracoMarketplace/enterspeed-logo.png"
   },
+  "Title": "Enterspeed Cloudinary integration for Umbraco",
   "Category": "Headless",
   "LicenseTypes": [ "Free" ],
   "IssueTrackerUrl": "https://github.com/enterspeedhq/enterspeed-source-umbraco-cms-cloudinary/issues",
