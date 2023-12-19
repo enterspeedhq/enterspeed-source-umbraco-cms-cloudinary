@@ -9,6 +9,7 @@ using Enterspeed.Source.UmbracoCms.Providers;
 using Enterspeed.Source.UmbracoCms.Services;
 using Umbraco.Cms.Core.Models;
 using Umbraco.Cms.Core.Services;
+using static Umbraco.Cms.Core.Constants.Conventions;
 
 namespace Enterspeed.Source.UmbracoCms.Cloudinary.Handlers.Media
 {
@@ -51,7 +52,10 @@ namespace Enterspeed.Source.UmbracoCms.Cloudinary.Handlers.Media
                 return;
             }
 
-            var cloudinaryMediaUrl = _cloudinaryService.UploadToCloudinary(media);
+            var cloudinaryMediaUrl = media.ContentType.Name != MediaTypes.Folder
+                ? _cloudinaryService.UploadToCloudinary(media)
+                : null;
+
             var umbracoData = CreateMediaEntity(media, cloudinaryMediaUrl, job);
 
             Ingest(umbracoData, job);
