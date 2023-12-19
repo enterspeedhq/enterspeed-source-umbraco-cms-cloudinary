@@ -40,8 +40,7 @@ namespace Enterspeed.Source.UmbracoCms.Cloudinary.Services
 
         public virtual void DeleteFromCloudinary(IMedia media)
         {
-            var cloudinaryAccount = new Account(_enterspeedCloudinaryConfiguration.CloudName, _enterspeedCloudinaryConfiguration.ApiKey, _enterspeedCloudinaryConfiguration.ApiSecret);
-            var cloudinary = new CloudinaryDotNet.Cloudinary(cloudinaryAccount);
+            var cloudinary = GetCloudinaryClient();
 
             var umbracoMediaId = _entityIdentityService.GetId(media);
             var cloudinaryPublicId = string.IsNullOrWhiteSpace(_enterspeedCloudinaryConfiguration.AssetFolder)
@@ -61,8 +60,7 @@ namespace Enterspeed.Source.UmbracoCms.Cloudinary.Services
 
         public virtual string UploadToCloudinary(IMedia media)
         {
-            var cloudinaryAccount = new Account(_enterspeedCloudinaryConfiguration.CloudName, _enterspeedCloudinaryConfiguration.ApiKey, _enterspeedCloudinaryConfiguration.ApiSecret);
-            var cloudinary = new CloudinaryDotNet.Cloudinary(cloudinaryAccount);
+            var cloudinary = GetCloudinaryClient();
 
             var mediaStream = GetMediaStream(media);
             var umbracoMediaId = _entityIdentityService.GetId(media);
@@ -90,8 +88,7 @@ namespace Enterspeed.Source.UmbracoCms.Cloudinary.Services
 
         public virtual string GetCloudinaryUrl(IPublishedContent umbracoMedia, CloudinaryTransformation cloudinaryTransformation = null)
         {
-            var cloudinaryAccount = new Account(_enterspeedCloudinaryConfiguration.CloudName, _enterspeedCloudinaryConfiguration.ApiKey, _enterspeedCloudinaryConfiguration.ApiSecret);
-            var cloudinary = new CloudinaryDotNet.Cloudinary(cloudinaryAccount);
+            var cloudinary = GetCloudinaryClient();
 
             var transformation = new Transformation();
             if (cloudinaryTransformation is not null && cloudinaryTransformation.Height > 0)
@@ -133,6 +130,12 @@ namespace Enterspeed.Source.UmbracoCms.Cloudinary.Services
             }
 
             return new MemoryStream(mediaData);
+        }
+
+        private CloudinaryDotNet.Cloudinary GetCloudinaryClient()
+        {
+            var cloudinaryAccount = new Account(_enterspeedCloudinaryConfiguration.CloudName, _enterspeedCloudinaryConfiguration.ApiKey, _enterspeedCloudinaryConfiguration.ApiSecret);
+            return new CloudinaryDotNet.Cloudinary(cloudinaryAccount);
         }
     }
 }
