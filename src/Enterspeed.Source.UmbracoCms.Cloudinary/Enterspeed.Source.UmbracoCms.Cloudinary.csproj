@@ -30,7 +30,6 @@
     <Folder Include="Handlers\Media\" />
     <Folder Include="Models\Configuration\" />
     <Folder Include="Exceptions\" />
-    <Folder Include="Services\" />
   </ItemGroup>
 
   <ItemGroup>
