@@ -9,7 +9,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Updated dependency for `Enterspeed.Source.UmbracoCms` to require 5.0.0 or above
 
 ### Changed 
-- Updated `CloudinaryDotNet` to 1.25.2
+- Updated `CloudinaryDotNet` to 1.25.1
 
 ## [3.0.0 - 2025-01-20]
 ### Breaking
