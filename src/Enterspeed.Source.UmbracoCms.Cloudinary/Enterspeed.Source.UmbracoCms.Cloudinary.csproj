@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <Nullable>disable</Nullable>
     <PackageId>Enterspeed.Source.UmbracoCms.Cloudinary</PackageId>
     <Authors>Enterspeed</Authors>
@@ -21,8 +21,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="CloudinaryDotNet" Version="1.24.0" />
-    <PackageReference Include="Enterspeed.Source.UmbracoCms" Version="[4.3.0,5.0.0)" />
+    <PackageReference Include="CloudinaryDotNet" Version="1.25.1" />
+    <PackageReference Include="Enterspeed.Source.UmbracoCms" Version="5.0.0" />
   </ItemGroup>
 
   <ItemGroup>
