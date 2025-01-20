@@ -1,4 +1,4 @@
-# [Enterspeed Umbraco Source Cloudinary](https://www.enterspeed.com/) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) [![NuGet version](https://img.shields.io/nuget/v/Enterspeed.Source.UmbracoCms.Cloudinary)](https://www.nuget.org/packages/Enterspeed.Source.UmbracoCms.Cloudinary/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/enterspeedhq/enterspeed-source-umbraco-cms-cloudinary/pulls)
+﻿# [Enterspeed Umbraco Source Cloudinary](https://www.enterspeed.com/) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) [![NuGet version](https://img.shields.io/nuget/v/Enterspeed.Source.UmbracoCms.Cloudinary)](https://www.nuget.org/packages/Enterspeed.Source.UmbracoCms.Cloudinary/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/enterspeedhq/enterspeed-source-umbraco-cms-cloudinary/pulls)
 
 ## Documentation
 
@@ -19,6 +19,15 @@ The only configuration specific to this add-on is the Cloudinary environment cre
     }
   }
 ```
+
+## Version support
+
+| Enterspeed.Source.UmbracoCms.Cloudinary   | Enterspeed.Source.UmbracoCms  |
+|-------------------------------------------|-------------------------------|
+| V1                                        | V2.1.0 ≤ x < 4.0.0            |
+| V2                                        | V4.0.0 ≤ x < 4.3.0            |
+| V3                                        | V4.3.0 ≤ x < 5.0.0            |
+| V3                                        | V5.0.0 > x                    |
 
 ## Changelog
 
