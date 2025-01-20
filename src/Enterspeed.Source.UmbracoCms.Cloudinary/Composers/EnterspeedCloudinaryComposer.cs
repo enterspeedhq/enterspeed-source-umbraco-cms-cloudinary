@@ -5,7 +5,7 @@ using Enterspeed.Source.UmbracoCms.Base.Services;
 using Enterspeed.Source.UmbracoCms.Cloudinary.Handlers.Media;
 using Enterspeed.Source.UmbracoCms.Cloudinary.Provider;
 using Enterspeed.Source.UmbracoCms.Cloudinary.Services;
-using Enterspeed.Source.UmbracoCms.V9Plus;
+using Enterspeed.Source.UmbracoCms.V14Plus;
 using Microsoft.Extensions.DependencyInjection;
 using Umbraco.Cms.Core.Composing;
 using Umbraco.Cms.Core.DependencyInjection;
