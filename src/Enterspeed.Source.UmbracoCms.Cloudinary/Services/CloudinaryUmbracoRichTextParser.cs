@@ -1,6 +1,6 @@
-﻿using Enterspeed.Source.UmbracoCms.Services;
-using System;
+﻿using System;
 using System.Linq;
+using Enterspeed.Source.UmbracoCms.Base.Services;
 using Enterspeed.Source.UmbracoCms.Cloudinary.Models;
 using HtmlAgilityPack;
 using Umbraco.Cms.Core.Models.PublishedContent;
