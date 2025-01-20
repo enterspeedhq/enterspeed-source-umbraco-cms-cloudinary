@@ -1,10 +1,10 @@
 ﻿using Enterspeed.Source.Sdk.Api.Services;
-using Enterspeed.Source.UmbracoCms.Data.Models;
-using Enterspeed.Source.UmbracoCms.Exceptions;
-using Enterspeed.Source.UmbracoCms.Handlers.Media;
-using Enterspeed.Source.UmbracoCms.Models;
-using Enterspeed.Source.UmbracoCms.Providers;
 using System.Net;
+using Enterspeed.Source.UmbracoCms.Base.Data.Models;
+using Enterspeed.Source.UmbracoCms.Base.Exceptions;
+using Enterspeed.Source.UmbracoCms.Base.Handlers.Media;
+using Enterspeed.Source.UmbracoCms.Base.Models;
+using Enterspeed.Source.UmbracoCms.Base.Providers;
 using Umbraco.Cms.Core.Services;
 using Enterspeed.Source.UmbracoCms.Cloudinary.Services;
 using Microsoft.Extensions.Logging;

@@ -1,11 +1,11 @@
-﻿using Enterspeed.Source.UmbracoCms.Cloudinary.Handlers.Media;
+﻿using Enterspeed.Source.UmbracoCms.Base.DataPropertyValueConverters;
+using Enterspeed.Source.UmbracoCms.Base.Handlers.Media;
+using Enterspeed.Source.UmbracoCms.Base.Providers;
+using Enterspeed.Source.UmbracoCms.Base.Services;
+using Enterspeed.Source.UmbracoCms.Cloudinary.Handlers.Media;
 using Enterspeed.Source.UmbracoCms.Cloudinary.Provider;
 using Enterspeed.Source.UmbracoCms.Cloudinary.Services;
-using Enterspeed.Source.UmbracoCms.Composers;
-using Enterspeed.Source.UmbracoCms.DataPropertyValueConverters;
-using Enterspeed.Source.UmbracoCms.Handlers.Media;
-using Enterspeed.Source.UmbracoCms.Providers;
-using Enterspeed.Source.UmbracoCms.Services;
+using Enterspeed.Source.UmbracoCms.V9Plus;
 using Microsoft.Extensions.DependencyInjection;
 using Umbraco.Cms.Core.Composing;
 using Umbraco.Cms.Core.DependencyInjection;
