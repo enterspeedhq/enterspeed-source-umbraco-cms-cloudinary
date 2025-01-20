@@ -27,7 +27,7 @@ The only configuration specific to this add-on is the Cloudinary environment cre
 | V1                                        | V2.1.0 ≤ x < 4.0.0            |
 | V2                                        | V4.0.0 ≤ x < 4.3.0            |
 | V3                                        | V4.3.0 ≤ x < 5.0.0            |
-| V3                                        | V5.0.0 > x                    |
+| V4                                        | V5.0.0 > x                    |
 
 ## Changelog
 
